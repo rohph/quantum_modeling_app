@@ -342,7 +342,8 @@ const SpinTraceEvolution = () => {
       <Content className="site-layout" style={{margin: "5%"}}>
         <CustomPageHeader text="Spin Qubit Trace" size="h3"/>
         {/*<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}*/}
-        {/*     ref={animationContainerRef}></div>*/}
+        {/*     ref={animationContainerRef}></div>*/
+        <CustomDescriptionBox
                     imageUrl={infoFig}
         <div style={{display: 'flex', justifyContent: 'left'}} ref={animationContainerRef}></div>
         {/*<div ref={animationContainerRef}/>*/}
