@@ -344,7 +344,7 @@ const SpinTraceEvolution = () => {
         {/*<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}*/}
         {/*     ref={animationContainerRef}></div>*/
         <CustomDescriptionBox
-                    imageUrl={infoFig}
+                    imageUrl={infoFig}/>
         <div style={{display: 'flex', justifyContent: 'left'}} ref={animationContainerRef}></div>
         {/*<div ref={animationContainerRef}/>*/}
         <CustomDescriptionBox
