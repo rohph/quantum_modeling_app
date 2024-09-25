@@ -343,7 +343,6 @@ const SpinTraceEvolution = () => {
         <CustomPageHeader text="Spin Qubit Trace" size="h3"/>
         {/*<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}*/}
         {/*     ref={animationContainerRef}></div>*/}
-        <div style={{display: 'flex', justifyContent: 'left'}} ref={animationContainerRef}></div>
         {/*<div ref={animationContainerRef}/>*/}
         <CustomDescriptionBox
                               imageUrl={infoFig}
@@ -352,6 +351,7 @@ const SpinTraceEvolution = () => {
               The left figure shows the simulated device structure. The applied magnetic field rotates an electron spin in a quantum dot defined by a gate. Spin rotation can be visualized in a Bloch sphere.
             `}
         />
+       <div style={{display: 'flex', justifyContent: 'left'}} ref={animationContainerRef}></div>
       </Content>
     </Layout>
   );
