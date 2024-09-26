@@ -346,6 +346,8 @@ const SpinTraceEvolution = () => {
         {/*<div ref={animationContainerRef}/>*/}
         <CustomDescriptionBox
                               imageUrl={infoFig}
+        />
+        <CustomDescriptionBox
             msg={`The program simulates the evolution of a spin in the presence of a magnetic field and decoherence for a given initial state.
               Quantum gate performance is assessed when the rotation angle met the required angle of a quantum gate for the first time.
               The left figure shows the simulated device structure. The applied magnetic field rotates an electron spin in a quantum dot defined by a gate. Spin rotation can be visualized in a Bloch sphere.
