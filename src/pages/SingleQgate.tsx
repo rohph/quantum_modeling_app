@@ -344,7 +344,7 @@ const SpinTraceEvolution = () => {
         {/*<div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}*/}
         {/*     ref={animationContainerRef}></div>*/}
         {/*<div ref={animationContainerRef}/>*/}
-        <img src={imageUrl}/>
+            <img src={infoFig}/>
         <CustomDescriptionBox
             msg={`The program simulates the evolution of a spin in the presence of a magnetic field and decoherence for a given initial state.
               Quantum gate performance is assessed when the rotation angle met the required angle of a quantum gate for the first time.
